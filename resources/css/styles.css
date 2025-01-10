@@ -1,0 +1,41 @@
+.bighead {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    background-color: #ffcc00;
+}
+
+.blackie {
+    font-size: 35px;
+    color: #ffcc00;
+    text-align: center;
+    background-color: #333;
+}
+
+.grey {
+    font-size: 35px;
+    color:#777;
+    text-align: center;
+    background-color: #ffcc00;
+}
+
+.pumpkin {
+    font-size: 35px;
+    color: #ffcc00;
+    text-align: center;
+    background-color: #777;
+}
+
+.whitey {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    background-color: #ffcc00;
+}
+
+body ul li {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
