@@ -21,27 +21,39 @@ body {
     color: #ffcc00;
     text-align: center;
     background-color: #333;
-}
-
-.grey {
-    font-size: 35px;
-    color:#777;
-    text-align: center;
-    background-color: #ffcc00;
+    border: 1.7px solid #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .pumpkin {
     font-size: 35px;
+    color:#333;
+    text-align: center;
+    background-color: #ffcc00;
+    border: 1.7px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grey {
+    font-size: 35px;
     color: #ffcc00;
     text-align: center;
     background-color: #777;
+    border: 1.7px solid #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .whitey {
     font-size: 35px;
-    color: #fff;
+    color: #333;
     text-align: center;
-    background-color: #ffcc00;
+    background-color: #fff;
+    border: 1.7px solid #777;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 button {
@@ -139,3 +151,7 @@ body ul {
     align-content: center;
 }
 
+.link:hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
