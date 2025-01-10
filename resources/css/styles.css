@@ -33,4 +33,62 @@
     background-color: #ffcc00;
 }
 
+button {
+    font-size: 26px;
+    color: #ffcc00;
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+button:hover {
+    background-color: #ffcc00;
+    color:#fff
+}
+
+button:disabled {
+    background-color: #fff;
+    cursor: not-allowed;
+    color: #fff;
+}
+
+.primary {
+    background-color: #333;
+    color: ##ffcc00;
+}
+
+.secondary {
+    background-color: #ffcc00;
+    color: #777;
+}
+
+.tertiary {
+    background-color: #777;
+    color: #ffcc00;
+}
+
+.alternative {
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+button.alternative:hover {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+button.tertiary:hover {
+    background-color: #ffcc00;
+    color: #777;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
